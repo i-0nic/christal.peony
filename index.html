@@ -1,0 +1,223 @@
+<html>
+<head>
+  <title>Cristal Peonia</title>
+   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #d98cb3;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a65b89;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      color: #d98cb3;
+    }
+
+    header p {
+      margin: 10px 0;
+      font-style: italic;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 40px;
+      background-color: #f9e6f0;
+    }
+
+    .hero-text {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 2.2em;
+      color: #b94e72;
+    }
+
+    .hero-text p {
+      margin: 20px 0;
+    }
+
+    .hero-buttons button {
+      padding: 12px 24px;
+      margin: 10px 10px 0 0;
+      background-color: #d98cb3;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background-color: white;
+      padding: 20px;
+      width: 220px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .newsletter {
+      background-color: #ffe6f0;
+      padding: 40px 20px;
+    }
+
+    .newsletter input {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background-color: #d98cb3;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #fff0f5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="#">Cart</a>
+    <a href="#">For You</a>
+  </nav>
+
+  <header>
+    <h1>Cristal Peonia</h1>
+    <p>Get your sparkle on.</p>
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>Let your beauty bloom.</h2>
+      <p>Inspired by the soft petals of peonies and the glow of crystal light. Discover our collection of skin-loving makeup designed to enhance your natural radiance.</p>
+      <div class="hero-buttons">
+        <button>Shop Now</button>
+        <button>Learn More</button>
+      </div>
+    </div>
+    <div class="hero-image">
+       <img src="https://i.pinimg.com/1200x/e1/bb/5e/e1bb5ef0526f54fae26cda43c27a9290.jpg" alt="makeup" style="padding: 5px; width: 600px; height: 400; border-radius: 12px;">
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Our Best Sellers</h3>
+    <div class="products">
+      <div class="product">
+        <img src="https://i.pinimg.com/1200x/29/8a/5c/298a5cc713d052db83028076154fccde.jpg" alt="Lip Tint">
+        <h4>Dewy Lip & Cheek Tint</h4>
+        <p>₱499</p>
+      </div>
+      <div class="product">
+        <img src="https://i.pinimg.com/1200x/b4/3a/00/b43a004b97d785cfb87112df7278772b.jpg" alt="Glow Serum">
+        <h4>Glow Serum Base</h4>
+        <p>₱599</p>
+      </div>
+      <div class="product">
+        <img src="https://i.pinimg.com/736x/b9/4c/91/b94c91f9f39f2f9a7e274ebc4761ea70.jpg" alt="Blush Balm">
+        <h4>Cloud Blush Balm</h4>
+        <p>₱449</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="newsletter">
+    <h3>Stay Updated</h3>
+    <p>Sign up for new drops, promos & exclusive launches.</p>
+    <input type="email" placeholder="Your email">
+    <button>Subscribe</button>
+  </div>
+
+  <footer>
+    &copy; 2025 Cristal Peonia • All rights reserved
+  </footer>
+
+</body>
+</html>
